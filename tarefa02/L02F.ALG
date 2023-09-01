@@ -1,16 +1,16 @@
 Algoritmo "L02F"
-// Disciplina   : [Lógica de Programação]
+// Disciplina   : [Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Jailson
-// Descrição   : Efetuar a leitura de três valores (variáveis A, B e C) e
-//               apresentá-los dispostos em ordem crescente.
+// Descriï¿½ï¿½o   : Efetuar a leitura de trï¿½s valores (variï¿½veis A, B e C) e
+//               apresentï¿½-los dispostos em ordem crescente.
 // Autor(a)    : Filipe Gabriel Rocha
 // Data atual  : 31/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    a, b, c, maiorValor, menorValor, valorMedio: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    Escreva("Digite o valor de A: ")
    leia(a)
 
@@ -31,14 +31,14 @@ Inicio
               menorValor <- b
          fimse
       senao
-           valorMedio <- a
            maiorValor <- c
+           valorMedio <- a
            menorValor <- b
       fimse
    senao
         se (a > c) entao
-           valorMedio <- a
            maiorValor <- b
+           valorMedio <- a
            menorValor <- c
         senao
              menorValor <- a
@@ -53,7 +53,7 @@ Inicio
    fimse
 
    Escreval("============================================")
-   Escreval("A ordem crescente é: ", menorValor, valorMedio, maiorValor)
+   Escreval("A ordem crescente ï¿½: ", menorValor, valorMedio, maiorValor)
    Escreval("============================================")
 
 Fimalgoritmo
