@@ -1,4 +1,4 @@
-Algoritmo "EX11PAG4FACCAT"
+Algoritmo "EX16PAG5FACCAT"
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson
 // Descrição   : As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem 

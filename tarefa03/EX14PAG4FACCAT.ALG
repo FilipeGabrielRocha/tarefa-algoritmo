@@ -1,4 +1,4 @@
-Algoritmo "EX11PAG4FACCAT"
+Algoritmo "EX14PAG5FACCAT"
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson
 // Descrição   : Ler um valor e escrever a mensagem É MAIOR QUE 10! se o valor lido for maior que 10, caso 

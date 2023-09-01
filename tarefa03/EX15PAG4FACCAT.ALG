@@ -1,4 +1,4 @@
-Algoritmo "EX11PAG4FACCAT"
+Algoritmo "EX15PAG5FACCAT"
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson
 // Descrição   : Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo). 

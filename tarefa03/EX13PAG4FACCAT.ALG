@@ -1,4 +1,4 @@
-Algoritmo "EX11PAG4FACCAT"
+Algoritmo "EX13PAG5FACCAT"
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson
 // Descrição   : Faça um algoritmo que leia três notas de um aluno, calcule e escreva a média final deste aluno. 

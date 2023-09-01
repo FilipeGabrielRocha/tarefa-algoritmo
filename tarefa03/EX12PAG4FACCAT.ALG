@@ -1,4 +1,4 @@
-Algoritmo "EX11PAG4FACCAT"
+Algoritmo "EX12PAG5FACCAT"
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson
 // Descrição   : Escreva um algoritmo para ler uma temperatura em graus Fahrenheit, calcular e escrever o valor 
