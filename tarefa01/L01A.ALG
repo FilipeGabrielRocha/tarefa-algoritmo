@@ -1,18 +1,18 @@
 Algoritmo "Graus Celsius para Fahrenheit"
-// Disciplina   : [Lógica de Programação]
+// Disciplina   : [Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Jailson
-// Descrição   : Ler uma temperatura em graus Celsius e apresentá-la
-//               convertida em graus Fahrenheit. A fórmula de conversão é
+// Descriï¿½ï¿½o   : Ler uma temperatura em graus Celsius e apresentï¿½-la
+//               convertida em graus Fahrenheit. A fï¿½rmula de conversï¿½o ï¿½
 //               F  (9 * C + 160) / 5, sendo F a temperatura em Fahrenheit e
 //               C a temperatura em Celsius.
 // Autor(a)    : Filipe Gabriel Rocha
 // Data atual  : 28/08/2023
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
 C, F: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 Escreva("Digite a temperatura em Graus Celsius: ")
 Leia(C)
 
