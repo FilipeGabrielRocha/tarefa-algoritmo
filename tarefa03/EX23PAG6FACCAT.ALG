@@ -1,36 +1,50 @@
 Algoritmo "EX22PAG6FACCAT"
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson
-// Descrição   : A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar mais de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%. Escreva um algoritmo que leia o número de horas trabalhadas em um mês, o salário por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas (considere que o mês possua 4 semanas exatas).  
+// Descrição   : Para o enunciado a seguir foi elaborado um algoritmo em Português Estruturado que contém erros, identifique os erros no algoritmo apresentado abaixo: Enunciado: Tendo como dados de entrada o nome, a altura e o sexo (M ou F) de uma pessoa, calcule e mostre seu peso ideal, utilizando as seguintes fórmula.
 
 // Autor(a)    : Filipe Gabriel Rocha
 // Data atual  : 03/09/2023
 Var
 // Seção de Declarações das variáveis
-horasTrabalhadas, totalHorasTrabalhadasMes, mesEmSemana, horasTrabalhadasNaSemana: inteiro
-qntGanhaPorHora, salarioTotal: real
+nome, sexo: caractere
+altura, peso_ideal: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-Escreval("Digite as horas trabalhadas em 1 mês: ")
-Leia(horasTrabalhadas)
+Escreva("Digite o seu nome: ")
+Leia(nome)
 
-Escreval("Digite quanto ganha por hora: ")
-Leia(qntGanhaPorHora)
+Escreva("Digite o seu sexo M ou F (Masculino ou Feminino): ")
+Leia(sexo)
 
-mesEmSemana <- 4
-horasTrabalhadasNaSemana <- 40
+Escreva("Digite a sua altura: ")
+Leia(altura)
 
-totalHorasTrabalhadasMes <- horasTrabalhadasNaSemana * mesEmSemana
-
-se (horasTrabalhadas > totalHorasTrabalhadasMes) entao
-    salarioTotal <- horasTrabalhadas * (qntGanhaPorHora + (qntGanhaPorHora * 0.50))
+se (sexo = "M") entao 
+    peso_ideal <- (72.7 * altura) - 58 
+    Escreval("====================================")
+    Escreval("O peso ideal para o Homem é:", peso_ideal:2:2, "Kg")
+    Escreval("====================================")
 senao
-    salarioTotal <- horasTrabalhadas * qntGanhaPorHora
+    se (sexo = "F") entao
+        peso_ideal <- -44.7 + (62.1 * altura)
+        Escreval("====================================")
+        Escreval("O peso ideal para a Mulher é:", peso_ideal:2:2, "Kg")
+        Escreval("====================================") 
+    fimse
 fimse
 
+
 Escreval("====================================")
-Escreval("O salário total do funcionário é de: R$", salarioTotal:2:2)
-Escreval("====================================")
+Escreval("RESPONDENDO O EXERCÍCIO")
+Escreval("Não teve declaração de variáveis")
+Escreval("Não tem os perênteses entre 'sexo = M'")
+Escreval("Não tem as aspas no M, para indicar que é um caractere")
+Escreval("Não tem uma verificação se foi colocado F de feminino")
+Escreval("Está sendo usado Ler ou invés de Leia")
+Escreval("Não está pedindo os valores da váriavel nome, sexo e altura")
+Escreval("Se a resposta do usuário for feminino, tem que inverter de lugar o -44.7 com (62.1 * altura)")
+Escreval("====================================") 
 
 Fimalgoritmo
