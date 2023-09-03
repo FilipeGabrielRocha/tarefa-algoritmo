@@ -1,4 +1,4 @@
-Algoritmo "EX22PAG6FACCAT"
+Algoritmo "EX23PAG6FACCAT"
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson
 // Descrição   : Para o enunciado a seguir foi elaborado um algoritmo em Português Estruturado que contém erros, identifique os erros no algoritmo apresentado abaixo: Enunciado: Tendo como dados de entrada o nome, a altura e o sexo (M ou F) de uma pessoa, calcule e mostre seu peso ideal, utilizando as seguintes fórmula.
