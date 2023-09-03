@@ -6,9 +6,10 @@ Algoritmo "EX21PAG5FACCAT"
 //               de 24 horas e que o jogo pode iniciar em um dia e terminar no dia seguinte. 
 
 // Autor(a)    : Filipe Gabriel Rocha
-// Data atual  : 01/09/2023
+// Data atual  : 03/09/2023
 Var
 // Seção de Declarações das variáveis
+horaInicio, horaSaida, duracaoJogo: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -18,8 +19,18 @@ Leia(horaInicio)
 Escreva("Digite a hora inteira de saída: ")
 Leia(horaSaida)
 
+se (horaInicio > horaSaida) entao
+    duracaoJogo <- 24 - horaInicio + horaSaida
+senao
+    se (horaInicio = horaSaida) entao
+        duracaoJogo <- 24
+    senao
+        duracaoJogo <- horaSaida - horaInicio
+    fimse
+fimse
+
 Escreval("====================================")
-Escreval("O crescente é: ", menorValor, maiorValor)
+Escreval("A duração do jogo foi de: ", duracaoJogo, "horas")
 Escreval("====================================")
 
 Fimalgoritmo
