@@ -1,4 +1,4 @@
-Algoritmo "EX26PAG6FACCAT"
+Algoritmo "EX27PAG6FACCAT"
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson
 // Descrição   : Ler um valor e escrever se é positivo, negativo ou zero.
