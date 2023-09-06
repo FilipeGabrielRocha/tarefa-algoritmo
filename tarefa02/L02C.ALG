@@ -2,11 +2,11 @@ Algoritmo "L02C"
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson
 // Descrição   : Ler quatro valores referentes a quatro notas escolares de um
-//               aluno e imprimir uma mensagem dizendo que o aluno foi aprovado,
-//               se o valor da média escolar for maior ou igual a 5. Se o aluno
-//               não foi aprovado, indicar uma mensagem informando esta condição.
-//               Apresentar junto das mensagens o valor da média do aluno para
-//               qualquer condição.
+//            aluno e imprimir uma mensagem dizendo que o aluno foi aprovado,
+//            se o valor da média escolar for maior ou igual a 5. Se o aluno
+//            não foi aprovado, indicar uma mensagem informando esta condição.
+//            Apresentar junto das mensagens o valor da média do aluno para
+//            qualquer condição.
 // Autor(a)    : Filipe Gabriel Rocha
 // Data atual  : 31/08/2023
 Var

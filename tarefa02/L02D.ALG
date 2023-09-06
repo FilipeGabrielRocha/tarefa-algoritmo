@@ -34,21 +34,25 @@ Inicio
    media <- (nota1 + nota2 + nota3 + nota4) / 4
 
    se (media < 7) entao
+      Escreval("O aluno ficou em Exame!!")
       Escreva("Qual a nota do Exame: ")
       Leia(notaExame)
       mediaNova <- (media + notaExame) / 2
       se (mediaNova >= 5) entao
          Escreval("========================================")
-         Escreval("O aluno foi aprovado!")
+         Escreval("O aluno foi aprovado em Exame!")
+         Escreval("A média foi: ", mediaNova)
          Escreval("========================================")
       senao
          Escreval("========================================")
-         Escreval("O aluno não foi aprovado!")
+         Escreval("O aluno foi Reprovado!")
+         Escreval("A média foi: ", mediaNova)
          Escreval("========================================")
       fimse
    senao
       Escreval("========================================")
       Escreval("O aluno foi aprovado!")
+      Escreval("A média foi: ", media)
       Escreval("========================================")
    fimse
 

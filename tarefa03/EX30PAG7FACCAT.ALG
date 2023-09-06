@@ -1,16 +1,16 @@
 Algoritmo "EX30PAG7FACCAT"
-// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o]
+// Disciplina   : [Lógica de Programação]
 // Professor   : Jailson
-// DescriÃ§Ã£o   : Ler 3 valores (considere que nÃ£o serÃ£o informados valores iguais) e escrevÃª-los em ordem crescente.
-
+// Descrição   : Ler 3 valores (considere que não serão informados valores
+//               iguais) e escrevê-los em ordem crescente.
 // Autor(a)    : Filipe Gabriel Rocha
 // Data atual  : 03/09/2023
 Var
-// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+// Seção de Declaração das variáveis
 a, b, c, valorMedio, maiorValor, menorValor: real
 
 Inicio
-// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+// Seção de Comandos, procedimentos, funções, operadores, etc...
 Escreva("Digite o primeiro: ")
 Leia(a)
 
@@ -55,7 +55,7 @@ senao
 fimse
 
 Escreval("===========================================")
-Escreval("A ordem crescente Ã©:", menorValor, valorMedio, maiorValor)
+Escreval("A ordem crescente é:", menorValor, valorMedio, maiorValor)
 Escreval("===========================================")
 
 Fimalgoritmo

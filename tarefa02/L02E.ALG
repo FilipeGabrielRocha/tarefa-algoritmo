@@ -26,15 +26,18 @@ Inicio
       Escreva("Digite o valor de C: ")
       Leia(C)
 
-      delta <- B^2-4*A*C
+      delta <- (B^2) - (4 * A * C)
 
       se (delta < 0) entao
          Escreval("===========================================")
          Escreval("Delta negativo, Não pode continuar a conta")
          Escreval("===========================================")
       senao
-         x1 <- (-B + (raizq(delta))) / (2 * A)
-         x2 <- (-B - (raizq(delta))) / (2 * A)
+         //x1 <- (-B + (raizq(delta))) / (2 * A)
+         //x2 <- (-B - (raizq(delta))) / (2 * A)
+         
+         x1 <- (-B + (delta^(1/2))) / (2 * A)
+         x2 <- (-B - (delta^(1/2))) / (2 * A)
 
          Escreval("===========================================")
          Escreval("O valor do x1: ", x1)

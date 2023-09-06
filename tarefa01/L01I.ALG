@@ -8,9 +8,7 @@ Algoritmo "L01I"
 Var
 // Seção de Declarações das variáveis
 a, b: inteiro
-
 quadradoDaDiferenca: real
-
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -23,6 +21,6 @@ Leia(b)
 quadradoDaDiferenca <- (a - b)^2
 
 Escreval("================================================")
-Escreval("O resultado do quadrado da diferença do primeiro valor pelo segundo é: ", quadradoDaDiferenca)
+Escreval("O resultado é: ", quadradoDaDiferenca)
 Escreval("================================================")
 Fimalgoritmo

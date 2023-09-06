@@ -9,20 +9,20 @@ Algoritmo "L02B"
 // Autor(a)    : Filipe Gabriel Rocha
 // Data atual  : 31/08/2023
 Var
-// Seção de Declarações das variáveis
-a: inteiro
+   // Seção de Declarações das variáveis
+   a: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-Escreva("Digite um número inteiro (positivo ou negativo) qualquer: ")
-Leia(a)
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreva("Digite um número inteiro (positivo ou negativo) qualquer: ")
+   Leia(a)
 
-se (a < 0) entao
-a <- a * -1
-fimse
+   se (a < 0) entao
+      a <- a * -1
+   fimse
 
-Escreval("=================================================")
-Escreval("O número digitado é: ", a)
-Escreval("=================================================")
+   Escreval("=================================================")
+   Escreval("O número digitado é: ", a)
+   Escreval("=================================================")
 
 Fimalgoritmo

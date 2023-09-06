@@ -20,10 +20,10 @@ Leia(cotacao_dolar)
 Escreva("Digite a quantidade de reais: ")
 Leia(qnt_reais)
 
-real_para_dolar <- 1 / cotacao_dolar
+real_para_dolar <- (1 / cotacao_dolar) * qnt_reais
 
 Escreval("===============================================")
-Escreval("Se você tem", qnt_reais, " reais, você terá ", real_para_dolar:2:4, " dólares")
+Escreval("Se você tem", qnt_reais, " reais, você terá ", real_para_dolar:2:2, " dólares")
 Escreval("===============================================")
 
 

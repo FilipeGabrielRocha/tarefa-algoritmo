@@ -14,18 +14,18 @@ volume, comprimento, largura, altura: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-Escreva("Digite o valor do comprimento: ")
+Escreva("Digite o valor do comprimento cm: ")
 Leia(comprimento)
 
-Escreva("Digite o valor do largura: ")
+Escreva("Digite o valor do largura cm: ")
 Leia(largura)
 
-Escreva("Digite o valor do altura: ")
+Escreva("Digite o valor do altura cm: ")
 Leia(altura)
 
 volume <- comprimento * largura * altura
 
-Escreva("O volume da caixa retangular é de: ", volume)
+Escreva("O volume da caixa retangular é de: ", volume, " cm³")
 
 
 Fimalgoritmo

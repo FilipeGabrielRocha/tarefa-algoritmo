@@ -42,6 +42,7 @@ Leia(votosParaCandidatoB)
 Escreva("Digite a quantidade de votos do candidato C: ")
 Leia(votosParaCandidatoC)
 
+
 Escreva("Digite a quantidade de votos que foram nulos: ")
 Leia(votosNulos)
 
@@ -49,19 +50,19 @@ Escreva("Digite a quantidade de votos que foram em branco: ")
 Leia(votosBrancos)
 
 somaTotalEleitores <- votosParaCandidatoA + votosParaCandidatoB + votosParaCandidatoC + votosNulos + votosBrancos
-percentualVotosValidos <- ((votosParaCandidatoA + votosParaCandidatoB + votosParaCandidatoC) * 100) / somaTotalEleitores
 percentualVotosCandidatoA <- (votosParaCandidatoA * 100) / somaTotalEleitores
 percentualVotosCandidatoB <- (votosParaCandidatoB * 100) / somaTotalEleitores
 percentualVotosCandidatoC <- (votosParaCandidatoC * 100) / somaTotalEleitores
+percentualVotosValidos <- percentualVotosCandidatoA + percentualVotosCandidatoB + percentualVotosCandidatoC
 percentualVotosNulos <- (votosNulos * 100)/ somaTotalEleitores
-percentualVotosBrancos <- votosBrancos * 100 / somaTotalEleitores
+percentualVotosBrancos <- (votosBrancos * 100) / somaTotalEleitores
 
 Escreval("=========================================================")
 Escreval("Número total de eleitores: ", somaTotalEleitores, " eleitores")
 Escreval("O % correspondente de votos válidos: ", percentualVotosValidos:2:3, "%")
-Escreval("O % correspondente de votos válidos do candidato A: ", percentualVotosCandidatoA:2:3, "%")
-Escreval("O % correspondente de votos válidos do candidato B: ", percentualVotosCandidatoB:2:3, "%")
-Escreval("O % correspondente de votos válidos do candidato C: ", percentualVotosCandidatoC:2:3, "%")
+Escreval("O % correspondente de votos do candidato A: ", percentualVotosCandidatoA:2:3, "%")
+Escreval("O % correspondente de votos do candidato B: ", percentualVotosCandidatoB:2:3, "%")
+Escreval("O % correspondente de votos do candidato C: ", percentualVotosCandidatoC:2:3, "%")
 Escreval("O % correspondente de votos nulos: ", percentualVotosNulos:2:3, "%")
 Escreval("O % correspondente de votos em branco: ", percentualVotosBrancos:2:3, "%")
 Escreval("=========================================================")

@@ -1,16 +1,16 @@
 Algoritmo "L02F"
-// Disciplina   : [Lï¿½gica de Programaï¿½ï¿½o]
+// Disciplina  : [Lógica de Programação]
 // Professor   : Jailson
-// Descriï¿½ï¿½o   : Efetuar a leitura de trï¿½s valores (variï¿½veis A, B e C) e
-//               apresentï¿½-los dispostos em ordem crescente.
+// Descrição   : Efetuar a leitura de três valores (variáveis A, B e C) e
+//               apresentá-los dispostos em ordem crescente.
 // Autor(a)    : Filipe Gabriel Rocha
 // Data atual  : 31/08/2023
 Var
-   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
+   // Seção de Declaração das variáveis
    a, b, c, maiorValor, menorValor, valorMedio: inteiro
 
 Inicio
-   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
+   // Seção de Comandos, procedimentos, funções, operadores, etc...
    Escreva("Digite o valor de A: ")
    leia(a)
 
@@ -27,33 +27,33 @@ Inicio
             valorMedio <- b
             menorValor <- c
          senao
-              valorMedio <- c
-              menorValor <- b
+            valorMedio <- c
+            menorValor <- b
          fimse
       senao
-           maiorValor <- c
-           valorMedio <- a
-           menorValor <- b
+         maiorValor <- c
+         valorMedio <- a
+         menorValor <- b
       fimse
    senao
-        se (a > c) entao
-           maiorValor <- b
-           valorMedio <- a
-           menorValor <- c
-        senao
-             menorValor <- a
-             se (b > c) entao
-                maiorValor <- b
-                valorMedio <- c
-             senao
-                  maiorValor <- c
-                  valorMedio <- b
-             fimse
-        fimse
+      se (a > c) entao
+         maiorValor <- b
+         valorMedio <- a
+         menorValor <- c
+      senao
+         menorValor <- a
+         se (b > c) entao
+            maiorValor <- b
+            valorMedio <- c
+         senao
+            maiorValor <- c
+            valorMedio <- b
+         fimse
+      fimse
    fimse
 
    Escreval("============================================")
-   Escreval("A ordem crescente ï¿½: ", menorValor, valorMedio, maiorValor)
+   Escreval("A ordem crescente é: ", menorValor, valorMedio, maiorValor)
    Escreval("============================================")
 
 Fimalgoritmo

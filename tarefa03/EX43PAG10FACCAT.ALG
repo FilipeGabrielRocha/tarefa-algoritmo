@@ -11,13 +11,13 @@ valorA, valorB, valorC: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-Escreva("Digite o valor A: ")
+Escreval("Digite o valor A: ")
 Leia(valorA)
 
-Escreva("Digite o valor B: ")
+Escreval("Digite o valor B: ")
 Leia(valorB)
 
-Escreva("Digite o valor C: ")
+Escreval("Digite o valor C: ")
 Leia(valorC)
 
 se (valorA < (valorB + valorC)) e (valorB < (valorA + valorC)) e (valorC < (valorA + valorB)) entao
@@ -25,13 +25,13 @@ se (valorA < (valorB + valorC)) e (valorB < (valorA + valorC)) e (valorC < (valo
         Escreva("Triângulo Equilátero")
     senao
         se (valorA = valorB) ou (valorB = valorC) ou (valorA = valorC) entao
-            Escreva("Triângulo Isósceles")
+            Escreval("Triângulo Isósceles")
         senao
-            Escreva("Triângulo Escaleno")
+            Escreval("Triângulo Escaleno")
         fimse
     fimse
 senao
-    Escreva("Não é possível formar um triângulo")
+    Escreval("Não é possível formar um triângulo")
 fimse
 
 Escreval("====================================================")

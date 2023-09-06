@@ -20,6 +20,8 @@ Leia(SM)
 Escreva("Digite o valor do percentual de reajuste: ")
 Leia(PR)
 
+//         15% = 15 / 100 = 0,15
+
 NS <- SM + (SM * (PR / 100))
 
 Escreval("=======================================================")
